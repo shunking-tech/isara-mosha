@@ -1,0 +1,29 @@
+.introduction {
+  background-image: url("https://isara.life/wp-content/themes/isara_v2/img/introbottom.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 587px;
+  padding: 40px 0;
+  text-align: center;
+  &__question {
+    position: relative;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+    padding: 15px 0;
+    &__txt {
+      margin: 20px 0 10px;
+    }
+  }
+  &__description {
+    padding: 40px 0;
+    font-size: 20px;
+    &__txt {
+      margin-bottom: 2.4rem;
+      &__emphasis {
+        font-weight: bold;
+        background: linear-gradient(transparent 70%, #ebb94d 70%);
+      }
+    }
+  }
+}

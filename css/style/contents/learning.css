@@ -1,0 +1,43 @@
+.learning {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.learning p {
+  margin-bottom: 10px;
+}
+
+.learning__title {
+  margin: 20px 0 35px;
+}
+
+.learning__txt {
+  font-size: 20px;
+}
+
+.learning__container {
+  width: 860px;
+  max-width: calc(100% - 40px);
+  margin: 40px auto;
+}
+
+.learning__container__abilities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.learning__container__abilities__item {
+  width: 25%;
+  padding: 0 15px 0;
+}
+
+.learning__container__abilities__item img {
+  width: 180px;
+}
+
+.learning__txts {
+  font-size: 16px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=learning.css.map */

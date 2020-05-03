@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@import url(/Users/shunking/Desktop/模写コーディング/isara/css/reset/reset.css);
+@import url(/Users/shunking/Desktop/模写コーディング/isara/css/common/common.css);
+@import url(/Users/shunking/Desktop/模写コーディング/isara/css/style/header/header.css);
+@import url(/Users/shunking/Desktop/模写コーディング/isara/css/style/contents/container-fluid.css);
+@import url(/Users/shunking/Desktop/模写コーディング/isara/css/style/contents/conversion.css);
+@import url(/Users/shunking/Desktop/模写コーディング/isara/css/style/contents/introduction.css);
+@import url(/Users/shunking/Desktop/模写コーディング/isara/css/style/contents/aboutsecond.css);
+@import url(/Users/shunking/Desktop/模写コーディング/isara/css/style/contents/aboutthird.css);
+@import url(/Users/shunking/Desktop/模写コーディング/isara/css/style/contents/learning.css);
+@import url(/Users/shunking/Desktop/模写コーディング/isara/css/style/contents/merit.css);
+@import url(/Users/shunking/Desktop/模写コーディング/isara/css/style/contents/teacher.css);
+.about {
+  padding: 0 0 40px 0;
+  background-color: #fef5e0;
+  text-align: center;
+}
+
+.about p {
+  border-bottom: 10px;
+}
+
+.about__icon {
+  position: relative;
+  top: -40px;
+}
+
+.about__icon__circle {
+  color: #fff;
+  background-color: #ebb94d;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.about__title__question {
+  position: relative;
+  width: 860px;
+  max-width: calc(100% - 40px);
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.about__title__question__txt {
+  margin: 20px 0 10px;
+}
+
+.about__title__answer {
+  margin: 40px 0 10px 0;
+}
+
+.about__skills {
+  width: 1170px;
+  max-width: calc(100% - 40px);
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #fff;
+  border: 2px solid #ebb94d;
+  border-radius: 5px;
+}
+
+.about__skills__item {
+  padding: 10px;
+  display: inline-block;
+}
+
+.about__skills__item__txt {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.why {
+  position: relative;
+  padding: 40px 0;
+  text-align: center;
+  background-color: #ebb94d;
+  color: #fff;
+}
+
+.why__qaicon__circle {
+  color: #ebb94d;
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.why__txt {
+  width: 860px;
+  max-width: calc(100% - 40px);
+  margin: 0 auto;
+  padding: 15px 30px;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,32 @@
+.learning {
+  text-align: center;
+  padding: 40px 0;
+  p {
+    margin-bottom: 10px;
+  }
+  &__title {
+    margin: 20px 0 35px;
+  }
+  &__txt {
+    font-size: 20px;
+  }
+  &__container {
+    width: 860px;
+    max-width: calc(100% - 40px);
+    margin: 40px auto;
+    &__abilities {
+      display: flex;
+      &__item {
+        width: 25%;
+        padding: 0 15px 0;
+        img {
+          width: 180px;
+        }
+      }
+    }
+  }
+  &__txts {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

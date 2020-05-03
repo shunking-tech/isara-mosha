@@ -1,0 +1,60 @@
+.aboutsecond {
+  background-image: url("https://isara.life/wp-content/themes/isara_v2/img/aboutsecondbg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.aboutsecond p {
+  margin-bottom: 10px;
+}
+
+.aboutsecond__txtl {
+  color: #fff;
+  margin: 20px 0;
+}
+
+.aboutsecond__txtm {
+  color: #fff;
+}
+
+.aboutsecond__txtm__emphasis {
+  color: #ebb94d;
+}
+
+.aboutsecond__steps {
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aboutsecond__steps__item:nth-of-type(2) {
+  margin: 0 1.5%;
+}
+
+.aboutsecond__steps__item {
+  padding: 30px 30px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 32%;
+}
+
+.aboutsecond__steps__item__title {
+  color: #fff;
+  background-color: #ebb94d;
+  border-radius: 5px;
+}
+
+.aboutsecond__steps__item__contents {
+  margin-top: 30px;
+}
+
+.aboutsecond__steps__item__contents__txtxs {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=aboutsecond.css.map */

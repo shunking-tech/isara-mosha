@@ -1,0 +1,60 @@
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  .header-in {
+    position: relative;
+
+    .title {
+      position: relative;
+      width: 1170px;
+      max-width: calc(100% - 20px);
+      margin: 0 auto;
+      padding: 20px 0;
+      height: 75px;
+      // display: flex;
+
+      .logo {
+        display: inline-block;
+        margin-top: -6px;
+
+        img {
+          width: 128px;
+          height: auto;
+        }
+      }
+
+      .subtitle {
+        display: inline-block;
+        position: relative;
+        bottom: 8px;
+  
+        p {
+          margin-top: -6px;
+          letter-spacing: 1.5px;
+          font-weight: 600;
+        }
+      }
+
+      .headcontact {
+        .contactpc {
+          position: absolute;
+          right: 0;
+          top: 16px;
+          color: white;
+          padding: 11px 40px;
+          background-color: #da6b64;
+          border-radius: 25px;
+          cursor: pointer;
+          p {
+            letter-spacing: 1.5px;
+          }
+        }
+      }
+
+    }
+
+
+
+  }
+}

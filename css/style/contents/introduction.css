@@ -1,0 +1,36 @@
+.introduction {
+  background-image: url("https://isara.life/wp-content/themes/isara_v2/img/introbottom.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 587px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.introduction__question {
+  position: relative;
+  width: 860px;
+  max-width: calc(100% - 40px);
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.introduction__question__txt {
+  margin: 20px 0 10px;
+}
+
+.introduction__description {
+  padding: 40px 0;
+  font-size: 20px;
+}
+
+.introduction__description__txt {
+  margin-bottom: 2.4rem;
+}
+
+.introduction__description__txt__emphasis {
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, #ebb94d));
+  background: linear-gradient(transparent 70%, #ebb94d 70%);
+}
+/*# sourceMappingURL=introduction.css.map */

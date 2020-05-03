@@ -1,0 +1,53 @@
+.about {
+  padding: 0 0 40px 0;
+  background-color: #fef5e0;
+  text-align: center;
+  p {
+    border-bottom: 10px;
+  }
+  &__icon {
+    position: relative;
+    top: -40px;
+    &__circle {
+      color: #fff;
+      background-color: #ebb94d;
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+      display: inline-block;
+      border-radius: 50%;
+    }
+  }
+  &__title {
+    &__question {
+      position: relative;
+      width: 860px;
+      max-width: calc(100% - 40px);
+      margin: 0 auto;
+      padding: 15px 0;
+      &__txt {
+        margin: 20px 0 10px;
+      }
+    }
+    &__answer {
+      margin: 40px 0 10px 0;
+    }
+  }
+  &__skills {
+    width: 1170px;
+    max-width: calc(100% - 40px);
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border: 2px solid #ebb94d;
+    border-radius: 5px;
+    &__item {
+      padding: 10px;
+      display: inline-block;
+      &__txt {
+        margin-top: 10px;
+        font-size: 12px;
+      }
+    }
+  }
+}

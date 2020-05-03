@@ -1,0 +1,41 @@
+.teacher {
+  padding: 40px 0;
+  text-align: center;
+  background-image: url("https://isara.life/wp-content/themes/isara_v2/img/teacherbg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  p {
+    margin-bottom: 10px;
+  }
+  &__title {
+    margin: 20px 0 10px;
+  }
+  &__container {
+    width: 1170px;
+    max-width: 780px;
+    margin: 0 auto;
+    &__row {
+      display: flex;
+      &__col {
+        width: 50%;
+        padding: 0 15px;
+        img {
+          position: relative;
+          bottom: -35px;
+          border-radius: 50%;
+        }
+        &__detail {
+          padding: 40px;
+          border: 3px solid #fff;
+          font-size: 16px;
+          // &__who {
+          // }
+          &__txt {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}

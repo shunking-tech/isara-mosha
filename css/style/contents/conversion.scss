@@ -1,0 +1,47 @@
+.conversion {
+  color: white;
+  width: 100%;
+  background-color: #ebb94d;
+  padding: 30px 0;
+  text-align: center;
+  letter-spacing: 1.5px;
+  p {
+    margin: 0 0 10px;
+    code {
+      padding: 2px 4px;
+      font-size: 90%;
+      color: #c7254e;
+      background-color: #f9f2f4;
+      border-radius: 4px;
+      font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    }
+  }
+  .conversionbtn {
+    cursor: pointer;
+    padding: 30px 120px;
+    background-color: #da6b64;
+    border-radius: 50px;
+    color: #fff;
+    margin: 45px auto;
+    max-width: 1028px;
+  }
+  &__period {
+    line-height: 3.5rem;
+  }
+  &__snslist {
+    margin-bottom: 10px;
+    margin-top: -5px;
+    &__tw {
+      position: relative;
+      width: 74px;
+      height: 26px;
+    }
+    &__btn {
+      display: inline-block;
+      &__twitter {
+        position: absolute;
+        top: 11.5px;
+      }
+    }
+  }
+}
